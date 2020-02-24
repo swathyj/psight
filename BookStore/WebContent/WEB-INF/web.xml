@@ -4,13 +4,17 @@
 	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
 	version="4.0">
 	<display-name>BookStore</display-name>
-	<servlet>
-		<servlet-name>SwaSrvlet</servlet-name>
+	<welcome-file-list>
+   <welcome-file>index.jsp</welcome-file>
+
+</welcome-file-list>
+<!--  	<servlet>
+		<servlet-name>ControllerServlet</servlet-name>
 		<servlet-class>com.swathy.ControllerServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
-		<servlet-name>SwaSrvlet</servlet-name>
+		<servlet-name>ControllerServlet</servlet-name>
 		<url-pattern>/Books/*</url-pattern>
-	</servlet-mapping>
+	</servlet-mapping> -->
 </web-app>
